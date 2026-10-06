@@ -1,4 +1,4 @@
-import{bg as z,aV as x,B as N,G as A,a as u,V as I,C as L,S as F,b as y}from"./index-CEKs7V3o.js";import{s as P}from"./index-ljaiEpaO.js";import"./pose-CZQ2Dvzc.js";const B=8,T=Math.PI/2;function k(t){const i=["missileBodyRadiusRatio","missileBodyLengthRatio","missileNoseLengthRatio","missileFinSpanRatio","missileFinLengthRatio","missileFinThicknessRatio","missileTrailRatio"];for(const n of i)if(typeof t[n]!="number")throw new Error(`tuning.weapons.view にミサイルの形の値が足りません。
+import{bg as z,aV as x,B as N,G as A,a as u,V as I,C as L,S as F,b as y}from"./index-2bvzDRsn.js";import{s as P}from"./index-jixQbcqx.js";import"./pose-Dr0vyysm.js";const B=8,T=Math.PI/2;function k(t){const i=["missileBodyRadiusRatio","missileBodyLengthRatio","missileNoseLengthRatio","missileFinSpanRatio","missileFinLengthRatio","missileFinThicknessRatio","missileTrailRatio"];for(const n of i)if(typeof t[n]!="number")throw new Error(`tuning.weapons.view にミサイルの形の値が足りません。
 　足りないのは ${n} です。次を weapons: { view: { … } } の中に足してください
 　（すべて missileRadiusM に対する倍率）:
 　　missileBodyRadiusRatio: 0.5, missileBodyLengthRatio: 2.6,
